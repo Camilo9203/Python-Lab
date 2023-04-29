@@ -145,7 +145,7 @@ while True:
         puntuacionB = puntuacionB + 1
         Bola.goto(0, 0)
         Bola.dx *= -1
-        print(puntuacionB)
+        #print(puntuacionB)
         if puntuacionB == 10:
             jugador = "B"
             msg(jugador)
